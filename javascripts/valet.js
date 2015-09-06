@@ -132,7 +132,7 @@
 	//-- show the analyzing... message and hide the result
 	function showAnalyzingMessage() {
 		//document.frmURI.action='http://urivalet.com/?' + document.frmURI.URI.value + '#Report';
-		$('#frmURI').attr('action','https://urivalet.com/?' + $('#uri').val() + '#Report');
+		$('#frmURI').attr('action','http://aerovin.github.io/uriheader/?' + $('#uri').val() + '#Report');
 		$('#divAnalyzing').show();
 		$('#result').hide();
 	}
