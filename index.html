@@ -1,64 +1,234 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Uriheader by aerovin</title>
+<html lang="en">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Uriheader</h1>
-        <p>Check Server Headers</p>
+<head>
 
-        <p class="view"><a href="https://github.com/aerovin/uriheader">View the Project on GitHub <small>aerovin/uriheader</small></a></p>
+<meta charset="utf-8">
+<meta name="robots" content="noarchive">
 
+<title>Check Server Headers - Test Page Load Times - URI Valet</title>
+<meta name="description" content="Check Server Headers with the URI Valet. Preview a summary of head information, view total number of objects (http requests), time to download, object details, document internal links and external links along with verifying server headers for each. The URI Valet is a great online tool for testing landing page load times.">
+<meta name="keywords" content="URI Valet, Check Server Headers, Head Information, Number of Objects, Time to Download, Object Details, Internal Links, External Links, Verify Server Headers, Yuris Valet">
+<meta name="author" content="Edward Lewis">
 
-        <ul>
-          <li><a href="https://github.com/aerovin/uriheader/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/aerovin/uriheader/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/aerovin/uriheader">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<meta name="application-name" content="URI Valet">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+<script type="text/javascript" src="/javascript/fusioncharts.js"></script>
+<script type="text/javascript" src="/javascript/jquery.min.js"></script>
+<script type="text/javascript" src="/javascript/valet.js"></script>
+ 
+<link rel="stylesheet" type="text/css" href="/stylesheets/valet.css">
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/images/favicon.gif" type="image/gif">
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+  ga('create', 'UA-1315830-5', 'urivalet.com');
+  ga('send', 'pageview');
+</script>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+</head>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<body id="bhome">
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<div id="body1">
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<h1><abbr title="Uniform Resource Identifier">URI</abbr> Valet - Check Server Headers</h1>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/aerovin">aerovin</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+<form method="post" id="frmURI" action="/" onsubmit="showAnalyzingMessage()">
+<div>
+	<input type="hidden" name="VPclientWidth">
+	<input type="hidden" name="VPclientHeight">
+	<input type="hidden" name="VPavailWidth">
+	<input type="hidden" name="VPavailHeight">
+	<input type="hidden" name="VPscreenWidth">
+	<input type="hidden" name="VPscreenHeight">
+</div>
+
+<table class="no-borders" style="width:100%;margin:0 0 20px 0;">
+	<tr>
+		<td class="tar">
+			<label for="uri">URI</label>:
+		</td>
+		<td>
+			<input type="text" name="URI" id="uri" value="http://" style="width:98%;" size="30">
+		</td>
+	</tr>
+	<tr>
+		<td class="tar">
+			<abbr title="Hypertext Transfer Protocol">HTTP</abbr> Protocol:
+		</td>
+		<td>
+			<input type="radio" name="protocol" value="0"  id="http10" onclick="setConnection()"> <label for="http10">HTTP/1.0</label> 
+			<input type="radio" name="protocol" value="1"  checked="checked" id="http11" onclick="setConnection()"> <label for="http11">HTTP/1.1</label> 
+		</td>
+	</tr>
+	<tr id="divConnection" style="display:none;">
+		<td class="tar">
+			Connection:
+		</td>
+		<td>
+			<input type="radio" name="connection" value="Close"  id="close"> <label for="close">Close</label> <input type="radio" name="connection" value="Keep-Alive"  checked="checked" id="keepalive"> <label for="keepalive">Keep-Alive</label>
+		</td>
+	</tr>
+	<tr>
+		<td class="tar">
+			<label for="ua">User Agent</label>:
+		</td>
+		<td>
+			<select name="ua" id="ua" title="Select User-Agent" onchange="ua_onchange()">
+			<option value="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0" selected="selected">My Browser</option>
+<option value="Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)">Googlebot 2.1</option>
+<option value="Googlebot-Image/1.0">Googlebot Image 1.0</option>
+<option value="Mediapartners-Google/2.1">Mediapartners Google 2.1</option>
+<option value="Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)">Yahoo! Slurp</option>
+<option value="msnbot/2.1 (+http://search.msn.com/msnbot.htm)">MSNBot 2.1</option>
+<option value="msnbot/1.1 (+http://search.msn.com/msnbot.htm)">MSNBot 1.1</option>
+<option value="msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)">MSNBot Media 1.1</option>
+<option value="msnbot-media/1.0 (+http://search.msn.com/msnbot.htm)">MSNBot Media 1.0</option>
+<option value="adidxbot/1.1 (+http://search.msn.com/msnbot.htm)">MSN AdidxBot 1.1</option>
+<option value="Mozilla/2.0 (compatible; Ask Jeeves/Teoma; +http://about.ask.com/en/docs/about/webmasters.shtml)">Ask Jeeves/Teoma</option>
+<option value="BaiDuSpider+(+http://www.baidu.com/search/spider.htm)">BaiDuSpider</option>
+<option value="Mozilla/5.0 (compatible; MJ12bot/v1.2.4; http://www.majestic12.co.uk/bot.php?+)">MJ12bot 1.2.4</option>
+<option value="NutchCVS/0.7.2 (Nutch; http://lucene.apache.org/nutch/bot.html; nutch-agent@lucene.apache.org)">Nutch 0.7.2</option>
+<option value="Mozilla/5.0 (compatible; ScoutJet; http://www.scoutjet.com/)">ScoutJet</option>
+<option value="Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)">YandexBot</option>
+<option value="Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0">Firefox 36.0 Win</option>
+<option value="Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0">Firefox 31.0 Win</option>
+<option value="Mozilla/5.0 (X11; Linux i586; rv:31.0) Gecko/20100101 Firefox/31.0">Firefox 31.0 Lin</option>
+<option value="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36">Google Chrome 41.0 Win</option>
+<option value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36">Google Chrome 41.0 Lin</option>
+<option value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko">IE 11.0 Win</option>
+<option value="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)">IE 10.0 Win</option>
+<option value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 9.0)">IE 9.0 Win</option>
+<option value="Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)">IE 8.0 Win</option>
+<option value="Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 6.0)">IE 7.0 Win</option>
+<option value="Mozilla/4.0 (compatible; MSIE 6.1; Windows XP)">IE 6.0 Win</option>
+<option value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A">Safari 7.0 Mac</option>
+<option value="Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25">Safari 6.0 iPad</option>
+<option value="Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko ) Version/5.1 Mobile/9B176 Safari/7534.48.3">Safari 5.1 iPad</option>
+<option value="Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27">Safari 5.0.4 Win</option>
+<option value="Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27">Safari 5.0.4 Mac</option>
+<option value="Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3">Safari iPhone 1A543a</option>
+<option value="Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A102 Safari/419.3">Safari iPhone 4A102</option>
+<option value="Mozilla/5.0 (iPod; U; CPU iPhone OS 2_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A347 Safari/525.20">Safari iPod 5A347</option>
+<option value="Opera/9.80 (X11; Linux i686; Ubuntu/14.10) Presto/2.12.388 Version/12.16">Opera 12.16 Lin</option>
+<option value="Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14">Opera 12.14 Win</option>
+<option value="Opera/9.80 (Windows NT 6.1; U; en) Presto/2.9.181 Version/12.00">Opera 12.00 Win</option>
+<option value="Mozilla/5.0 (Windows NT 5.2; RW; rv:7.0a1) Gecko/20091211 SeaMonkey/9.23a1pre">SeaMonkey 9.23a1pre Win</option>
+<option value="Mozilla/5.0 (Windows; U; Windows NT 5.1; RW; rv:1.8.0.7) Gecko/20110321 MultiZilla/4.33.2.6a SeaMonkey/8.6.55">SeaMonkey 8.6.55 Win</option>
+<option value="Mozilla/5.0 (X11; U; Linux i686; ru; rv:33.2.3.12) Gecko/20120201 SeaMonkey/8.2.8">SeaMonkey 8.2.8 Lin</option>
+<option value="Lynx/2.8.7rel.2 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/1.0.0a">Lynx 2.8.7</option>
+<option value="Lynx/2.8.6rel.5 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/1.0.0a">Lynx 2.8.6</option>
+<option value="Lynx (textmode)">Lynx textmode</option>
+<option value="Xenu Link Sleuth/1.3.7">Xenu 1.3.7</option>
+<option value="Xenu Link Sleuth 1.2i">Xenu 1.2i</option>
+<option value="Mozilla/5.0 (BlackBerry; U; BlackBerry 9850; en-US) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.115 Mobile Safari/534.11+">BlackBerry</option>
+<option value="Mozilla/5.0 (Linux; U; Android 2.3.3; en-us; HTC_DesireS_S510e Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1">Google Android 2.3 Lin</option>
+<option value="Mozilla/5.0 (Linux; U; Android 2.2; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1">Google Android 2.2 Lin</option>
+<option value="Mozilla/5.0 (Linux; U; Android 2.1; en-us; Nexus One Build/ERD56C) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17">Google Android 2.1 Lin</option>
+<option value="Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)">IE Mobile 9.0</option>
+<option value="Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)">Windows Mobile</option>
+<option value="Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.127 Large Screen Safari/533.4 GoogleTV/161242">Google TV</option>
+<option value="Mozilla/5.0 (PLAYSTATION 3; 3.55)">Playstation 3</option>
+<option value="Mozilla/4.0 (PSP (PlayStation Portable); 2.00)">Playstation Portable 2.0</option>
+<option value="Opera/9.30 (Nintendo Wii; U; ; 2071; Wii Shop Channel/1.0; en)">Nintendo Wii Shop 1.0</option>
+<option value="Opera/9.30 (Nintendo Wii; U; ; 2047-7;en)">Nintendo Wii</option>
+</select> <input type="text" name="uacustom" id="uacustom" value="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0" style="width:70%;" size="30" onchange="uacustom_onchange()" readonly="readonly">
+		</td>
+	</tr>
+	<tr>
+		<td class="tar">
+			If-Modified-Since:
+		</td>
+		<td>
+			<select id="modifiedsinceval" name="modifiedsinceval" onchange="setmodifiedsince()"><option> </option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option></select>
+			<select id="modifiedsinceunit" name="modifiedsinceunit" onchange="setmodifiedsince()"><option selected="selected"> </option><option>Days </option><option>Hours </option><option>Minutes </option><option>Seconds </option></select>
+			<input type="text" id="modifiedsince" name="modifiedsince" value="" style="width:50%;" size="20" readonly="readonly">
+		</td>
+	</tr>
+	
+	<tr>
+		<td>&nbsp;</td>
+		<td>
+			<label><input type="checkbox" name="checkHeaderRedirectOnly" value="1"> Check Server Headers Only</label>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<div class="g-recaptcha" data-sitekey="6LesCsMSAAAAAIsTTNyQMqKBfP3wZO9IGMtY6KL4"></div>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<input class="hand" type="submit" value="Submit"> <input class="hand" type="button" value="Reset" onclick="javascript:location.href='https://urivalet.com/';" onkeypress="javascript:location.href='http://urivalet.com/';">
+		</td>
+	</tr>
+	</table>
+</form>
+
+<div id="divAnalyzing" style="display:none;">
+	<div class="tac">
+		<img src="/images/progress.gif" width="195" height="6" alt="Progress Bar">
+	</div>
+	<p>Analyzing URI, one moment please... Larger pages with multiple http requests may take upwards of 10 seconds or more depending on your connection speed and that of the resource requested.</p>
+</div>
+
+<div id="result">
+</div>
+
+<div id="logo">
+	<a href="https://urivalet.com/" title="URI Valet"><img src="/images/logo-uri-valet-1x.png" width="200" height="64" alt="URI Valet"></a>
+</div>
+
+<nav>
+<div id="topnav" class="but">
+	<ul>
+		<li><a href="/" id="home">URI Valet</a></li>
+		<li><a href="/help.html" id="help">Help</a></li>
+		<li><a href="/reason-phrases.html" id="reaphr">Reason Phrases</a></li>
+	</ul>
+</div>
+</nav><footer>
+
+<hr>
+
+<div id="footer">
+	<ul>
+		<li style="float:right;margin:5px 0 0 0;">
+			<a href="http://www.screamingfrog.co.uk/seo-spider/" title="Screaming Frog SEO Spider Tool - Get the Frog NOW!"><img style="vertical-align:bottom;" src="/images/screaming-frog-seo-spider.png" width="69" height="72" alt="Screaming Frog SEO Spider"></a>
+		</li>
+		<li style="float:right;margin:15px 10px 0 0;"><a href="http://www.w3.org/html/logo/" title="HTML5 Class: CSS3, Semantics"><img style="vertical-align:bottom;" src="/images/html5-badge-1x.png" width="109" height="48" alt="HTML5"></a></li>
+		<li style="float:right;margin:5px 10px 0 0;">
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="U7Y5CMEUVBYSC">
+			<input title="Your Donations are greatly appreciated!" style="border:0;padding:0;width:122px;height:72px;" type="image" src="/images/donate.gif" name="submit" alt="URI Valet Donations">
+			<img style="display:none;" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" alt="">
+		</form>
+		</li>
+	</ul>
+	<p class="small bot">&copy;&#8734; URI Valet<br>
+	All trademarks and servicemarks are the properties of their respective owners.<br>
+	Last Modified: 2015-07-08T08:30:00-0700<br>
+	URI Valet Version No: 1.61</p>
+</div>
+</footer>
+
+<noscript><div><img src="/javascript/nojavascript.gif" alt=""></div></noscript>
+
+</div>
+
+<div id="debug"></div>
+
+</body>
+
 </html>
