@@ -1,0 +1,240 @@
+*{margin:0;padding:0;}
+article,aside,figure,footer,header,hgroup,menu,nav,section{display:block;}
+
+/* Begin Top Nav */
+div#topnav{position:absolute;top:21px;right:20px;text-align:right;}
+div#logo{position:absolute;top:20px;left:20px;}
+div#logo img{vertical-align:bottom;}
+/* End Top Nav */
+
+/* Begin Footer */
+div#footer{color:#777;}
+div#footer ul{margin:1.2em 0;padding:0;list-style:none;}
+div#footer li{margin:0;padding:0;list-style:none;display:inline;}
+div#footer li a{margin:0;padding:0;background:#fff;}
+div#footer li a:link, div#footer li a:visited{color:#369;}
+div#footer li a:hover{color:#060;text-decoration:none;}
+div#footer li a:active{color:#000;}
+/* End Footer */
+
+div#body1{
+position:relative;
+top:0;
+left:0;
+max-width:955px;
+z-index:1;
+font-size:90%;
+background:#fff;
+margin:0 auto;
+padding:30px 20px 15px 20px;
+border-width:10px 1px;
+border-style:solid;
+border-color:#9bb4cd #9bb4cd;
+border-radius:20px;
+}
+
+div.donate{margin:0;padding:5px 0;text-align:center;background:#edeef6;border-width:1px;border-style:solid;border-color:#ccc #888 #555 #bbb;}
+
+a:link{color:#369;}
+a:visited{color:#5a5e68;}
+a:hover{text-decoration:none;color:#080;}
+a:active{text-decoration:none;color:#000;}
+
+acronym, abbr{cursor:help;border-bottom:1px dotted #f00;}
+
+body{margin:20px;color:#000;
+background:#eee url(/images/body-tile.png)left top repeat-x;
+font:normal 100%/130% verdana,tahoma,helvetica,sans-serif;}
+
+code{color:#369;}
+
+dfn{font-weight:bold;font-style:normal;}
+
+dl{margin:15px 0;}
+dt{font-weight:bold;color:#369;}
+
+div.form{position:relative;text-align:center;}
+form{display:inline;margin:15px 0;}
+
+.fs10{font-size:70%;line-height:150%;}
+.fs11{font-size:75%;}
+.fs12{font-size:80%;line-height:160%;}
+.fs13{font-size:85%;}
+.fs14{font-size:90%;}
+.fs15{font-size:95%;}
+.fs16{font-size:100%;}
+
+h1{font:160%/normal "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;color:#369;text-align:left;margin:0 0 40px 220px;border-bottom:1px solid #ddd;}
+h2{font:145%/normal "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;color:#777;text-align:left;margin:20px 0 25px 0;border-bottom:1px solid #ddd;padding:0 0 2px 0;}
+h3{font:130%/normal "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;color:#888;text-align:left;margin:20px 0;}
+h4{font:115%/normal "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;color:#999;text-align:left;margin:20px 0;}
+h5{color:#aaa;font:105%/normal "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;}
+h1, h2, h3, h4, h5{text-shadow:#ccc -1px 1px 1px;}
+
+ol h2{border:0;padding:0;}
+
+/* Begin Horizontal Rule */
+hr{text-align:center;width:auto;height:1px;color:#ddd;border:none;} /* For Internet Explorer */
+html>body hr{margin:0;margin-right:0;width:auto;height:1px;background-color:#ddd;border:none;} /* For Gecko-based browsers */
+html>body hr{margin:0;margin-right:0;width:auto;height:1px;background-color:#ddd;border:0 solid #ddd;} /* For Opera and Gecko-based browsers */
+/* End Horizontal Rule */
+
+img{border:none;}
+.b1{border:1px solid #ddd;}
+.bor{border:1px solid #ddd;}
+.btb{border-width:1px;border-style:solid;border-color:#ccc #888 #555 #bbb;}
+.fl{float:left;}
+.fr{float:right;}
+
+.blink{text-decoration:blink;}
+.hand{cursor:pointer;}
+.help{cursor:help;}
+.cluehelp{cursor:pointer;}
+.clueless{font-size:11px;font-weight:bold;text-transform:uppercase;text-decoration:underline;cursor:pointer;color:#369;background:#fff;}
+.validation{width:400px;color:#000;background:#edeef6;}
+.vbutton{cursor:pointer;width:112px;}
+
+
+/* Begin Button, Input, Option, Select, Textarea */
+input, select, textarea, button{font:normal 100% tahoma,arial,helvetica,sans-serif;background:#fff;padding:5px;border:1px solid #ddd;border-radius:3px;}
+input[type=submit], input[type=button]{cursor:pointer;color:#5a5e68;background:#eee url(/images/alpha/tile-silver.jpg)left top repeat-x;border-width:1px;border-style:solid;border-color:#ccc #888 #555 #bbb;padding:3px 5px;border-radius:3px;}
+input[type=radio], input[type=checkbox]{border:0;}
+label{cursor:pointer;}
+input[type=button], input[type=reset], input[type=submit]{color:#5a5e68;}
+input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover{color:#060;background:#ddd url(/images/alpha/tile-blue.jpg) repeat-x;}
+optgroup{font-weight:bold;padding:5px 5px 0 5px;}
+optgroup option{padding:0 10px;}
+select{color:#000;background:#fff;}
+select option{padding:0 5px;}
+button{cursor:pointer;}
+/* End Button, Input, Option, Select, Textarea */
+
+kbd{font-family:arial,helvetica,sans-serif;padding:5px 3px;white-space:nowrap;color:#000;background:#eee;border-width:2px 4px 5px 3px;border-style:solid;border-color:#ccc #aaa #888 #bbb;}
+
+.ts{font-size:10px;font-weight:bold;color:#fff;background:#7587a9;border-top:.1em solid #ccc;border-right:.15em solid #aaa;border-bottom:.15em solid #888;border-left:.1em solid #bbb;padding:0 2px;cursor:help;}
+
+li{margin:20px 0;padding:0;}
+
+ol{margin:20px 20px 20px 45px;padding:0;}
+
+pre{font:120%/150% consolas,monaco,"lucida console","lucida sans typewriter","bitstream vera sans mono",monospace;
+color:#555;}
+pre b a{text-decoration:none;}
+
+p, pre, address, blockquote{margin:20px 0;}
+.top{margin-top:0;}
+.rt{text-align:right;}
+.bot{margin-bottom:0;}
+.lt{text-align:left;}
+.ct{text-align:center;}
+.ctr{text-align:center;}
+.nw{white-space:nowrap;}
+
+.tac{text-align:center;}
+.tal{text-align:left;}
+.tar{text-align:right;}
+.tdl{text-decoration:line-through;}
+.vab{vertical-align:bottom;}
+.vabl{vertical-align:baseline;}
+.vam{vertical-align:middle;}
+.vat{vertical-align:top;}
+.vatb{vertical-align:text-bottom;}
+.vatt{vertical-align:text-top;}
+
+.small{font-size:80%;}
+
+span.blue{color:#369;}
+span.green{color:#060;}
+
+.black{color:#000;}
+.blue{color:#369;}
+.gray{color:#999;}
+.green{color:#060;}
+.red{color:#b00;}
+.white{color:#fff;}
+
+.bgccc{background:#ccc;}
+.bgddd{background:#ddd;}
+.bgeee{background:#eee;}
+.bgfff{background:#fff;}
+
+.bgblulig{background:#ecf2ff;}
+.bggrelig{background:#f4fff4;}
+.bgredlig{background:#ffdfdf;}
+.bgyellig{background:#ffa;}
+
+.ele{font-size:11px;}
+
+.tile{color:#000;background:#369 url(/images/alpha/tile-heading.jpg) repeat-x;}
+
+ul{margin:20px 0 20px 45px;padding:0;list-style-type:disc;}
+ul li{list-style-image:none;}
+ul ul, ol ul{margin:20px 0 20px 30px;padding:0;list-style-type:disc;}
+ol li ul li{margin:20px 0;padding:0;list-style-image:none;}
+
+table{color:#000;background:#fff;border-collapse:collapse;width:100%;}
+table.no-borders, table.no-borders td, table.no-borders th{border:0;}
+td, th{border:1px solid #ddd;padding:5px;}
+th{background:#ddd url(/images/th-tile.png) center center repeat-x;border-bottom:0;}
+thead{background:#ddd;text-align:center;}
+
+.td20{width:20%;text-align:right;}
+.td25{width:25%;text-align:right;}
+.td30{width:30%;text-align:right;}
+.td35, .th35{width:35%;text-align:right;}
+.td40{width:40%;text-align:right;}
+.td45{width:45%;}
+.td50{width:50%;}
+.td60{width:60%;text-align:left;}
+.td65{width:65%;text-align:left;}
+.td70{width:70%;text-align:left;}
+.td75{width:75%;text-align:left;}
+.td80{width:80%;text-align:left;}
+.td85{width:85%;text-align:left;}
+.td90{width:90%;}
+.td100{width:100%;}
+
+tr.ff{color:#000;background:#edeef6;}
+tr.ef{color:#000;background:#edeef6;}
+tr.f0{color:#000;background:#edeef6;}
+
+.bg, .bgrid{
+color:#edeef6;
+background:#369 url(/images/alpha/tile-heading.jpg) repeat;
+font:bold 90%/150% tahoma,arial,sans-serif;
+text-transform:uppercase;
+}
+.bg b, .bgrid b{color:#edeef6;}
+
+.head{background:#369 url(/images/alpha/tile-heading.jpg) repeat-x;padding:3px;}
+.head b{font:bold 90%/150% arial,helvetica,sans-serif;text-transform:uppercase;color:#edeef6;}
+
+.td100{width:98%;}
+.inputs{width:98%;}
+.selects{width:100%;}
+
+.ffa{font-family:arial,sans-serif;}
+.ttu{text-transform:uppercase;}
+.u{text-decoration:underline;}
+
+/* Begin CSS Button Effect */
+.but a, .but a:visited{font:normal 14px/32px tahoma,arial,helvetica,sans-serif;color:#000;padding:4px 5px 5px 5px;margin:0;color:#777;background:#edeef6 url(/images/alpha/tile-silver.jpg) repeat top center;text-decoration:none;
+border-top:1px solid #ccc;
+border-left:1px solid #bbb;
+border-right:1px solid #888;
+border-bottom:1px solid #555;
+border-radius:3px;
+display:inline;
+white-space:nowrap;
+}
+.but a:hover{color:#555;background:#ddd url(/images/alpha/tile-blue.jpg) repeat top center;}
+.but a:active{color:#555;background:#ddd url(/images/alpha/tile-blue.jpg) repeat top center;}
+.but ul{margin:0;padding:0;list-style-type:none;}
+.but ul li{margin:0;padding:0;list-style-image:none;display:inline;}
+/* End CSS Button Effect */
+
+/* On Page Link States */
+#bhome a#home,
+#bhelp a#help,
+#breaphr a#reaphr
+{color:#369;background:#ddd url(/images/alpha/tile-blue.jpg) repeat top center;border-right:5px solid #9bb4cd;}
